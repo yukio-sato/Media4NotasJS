@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Nota</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="motor.js" type="text/javascript"></script>
+</head>
+<body>
+    <form class="centered">
+        <div class="rowStyle inputBox">
+            <label class="txtFont inputDescription" for="nt1">Primeira Nota:<br>
+                <input type="number" class="txtFont inputDesign" id="nt1" name="nt1" value="0" min="0">
+            </label>
+            <label class="txtFont inputDescription" for="nt2">Segunda Nota:<br>
+                <input type="number" class="txtFont inputDesign" id="nt2" name="nt2" value="0" min="0">
+            </label>
+            <label class="txtFont inputDescription" for="nt3">Terceira Nota:<br>
+                <input type="number" class="txtFont inputDesign" id="nt3" name="nt3" value="0" min="0">
+            </label>
+            <label class="txtFont inputDescription" for="nt4">Quarta Nota:<br>
+                <input type="number" class="txtFont inputDesign" id="nt4" name="nt4" value="0" min="0">
+            </label>
+        </div>
+        <br>
+        <div class="inputBox">
+            <Label class="txtFont inputDescription" id="mathTotal" name="mathTotal">Média: </Label><br>
+            <Label class="txtFont inputDescription" id="resulting" name="resulting">Resultado: </Label>
+        </div>
+        <button class="btnSubmit" type="submit" id="btnSubmit">Enviar</button>
+    </form>
+</body>
+</html>
